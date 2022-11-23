@@ -1,0 +1,14 @@
+*, body, html {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+h1, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
