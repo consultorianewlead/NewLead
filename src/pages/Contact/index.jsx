@@ -30,6 +30,10 @@ function useWindowDimensions() {
 
 const { width, height } = useWindowDimensions();
 
+  const [ name, setName ] = useState(undefined);
+  const [ whatsapp, setWhatsapp ] = useState(undefined);
+  const [ email, setEmail ] = useState(undefined);
+
   return (
     <Popup contentStyle={ width > 991 ? { width: width / 1.2, height: height / 1.2, borderRadius: "50px" } : {width: width / 1.2, borderRadius: "50px"}} position="center center" onClose={() => {props.setPopup(false)}} open={true} >
         <Container>
@@ -42,19 +46,19 @@ const { width, height } = useWindowDimensions();
 
               <div style={{ display: "grid", justifyContent: "center" }}>
                 <Text>Name</Text>
-                <Input style={{ width: width / 5, height: height / 16 }} placeholder="Ex: João" />
+                <Input onChange={(e) => {setName(e.target.value)}} style={{ width: width / 5, height: height / 16 }} placeholder="Ex: João" />
 
                 <Text>WhatsApp</Text>
-                <Input style={{ width: width / 5, height: height / 16 }} placeholder="Ex: (12) 3 45678910" />
+                <Input onChange={(e) => {setWhatsapp(e.target.value)}} style={{ width: width / 5, height: height / 16 }} placeholder="Ex: (12) 3 45678910" />
 
                 <Text>E-mail</Text>
-                <Input style={{ width: width / 5, height: height / 16 }} placeholder="Ex: joaopedro@gmail.com" />
+                <Input onChange={(e) => {setEmail(e.target.value)}} style={{ width: width / 5, height: height / 16 }} placeholder="Ex: joaopedro@gmail.com" />
               </div>
               
               <Nota>Nota: Ao preencher os dados eles serão enviados automaticamente para o nosso <br/>
               WhatsApp, e assim você poderá continuar com sua jornada pelo NewLead.</Nota>
 
-              <div style={{ display: "flex", justifyContent: "center"}}><Button style={{ width: width / 5, height: height / 16 }} >Entrar em contato agora</Button></div>
+              <div style={{ display: "flex", justifyContent: "center"}}><Button style={{ width: width / 5, height: height / 16 }} href={`https://api.whatsapp.com/send?phone=5575999080292&text=Ol%C3%A1%20Enilton%2C%20meu%20nome%20%C3%A9%3A%20${name}%2C%20meu%20e-mail%20%C3%A9%3A${email}%20e%20meu%20telefone%20%C3%A9%3A${whatsapp}`} target="_blank" >Entrar em contato agora</Button></div>
 
             </Form>
 

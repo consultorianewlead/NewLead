@@ -92,13 +92,17 @@ font-size: 0.8vw;
 
 export const Checkbox = styled.div``;
 
-export const Button = styled.button`
+export const Button = styled.a`
 background-color: #1476C6;
 color: #fff;
 border-radius: 15px;
 margin-top: 3%;
 cursor: pointer;
 font-size: 0.8vw;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
 
 @media only screen and (max-width: 768px) {
     font-size: 3vw;
