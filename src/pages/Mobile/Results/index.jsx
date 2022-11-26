@@ -10,7 +10,7 @@ import Quarta from '../../../assets/Prints/4M.png';
 import Quinta from '../../../assets/Prints/5M.png';
 import Sexta from '../../../assets/Prints/6M.png';
 
-const Index = () => {
+const Index = ( props ) => {
 
   function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
@@ -71,7 +71,7 @@ const { width } = useWindowDimensions();
         </div>
 
         <div style={{ display: "flex", justifyContent: "center" }}>
-            <Button>Entrar em contato</Button>
+            <Button onClick={() => {props.setPopup(!props.popup)}}>Entrar em contato</Button>
         </div>
     </div>
   )

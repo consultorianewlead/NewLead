@@ -30,5 +30,5 @@ color: #5F5F5F;
 font-size: 14px;
 font-weight: 500;
 margin-top: 3%;
-margin-left: 5%;
+width: 300px;
 `;

@@ -37,11 +37,20 @@ const Index = () => {
                 <Title>O fundador</Title>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <Description>
-                    Meu nome é Enilton Martins, morador nas regiões mais incríveis da Chapada Diamantina. Estou presente a mais de 3 anos no mercado, com formação em Gestão Comercial e atuando na área de Marketing Digital.
-                    <br /><br />
-                    Durante esse período, tive como experiência a atuação em organizações, sendo Sebrae, V4 Company, Vale Criativa, Sal Marketing e<br /> outros. Criador e gestor de diversas campanhas de marketing no mundo dos anúncios on-lines e com resultados que ultrapassaram os milhões de faturamento.
-                    <br /><br />
-                    Isso é um pouco que consigo contar aqui<br /> sobre os nossos resultados, porém, o mais incrível de tudo isso, é saber que por causa <br />das ideias, a dedicação e entrega que foi feita, não teríamos nenhum desses resultados e eu não poderia estar dividindo contigo aqui.
+                    Meu nome é Enilton Martins, morador em umas regiões mais incríveis da Chapada Diamantina - BA. Estou presente a mais
+                    de 3 anos no mercado, com formação em Gestão Comercial e atuando na área de Marketing Digital com especialidade na 
+                    Gestão de Tráfego.<br /><br />
+
+                    Durante esse período, tive diversas experiências em grandes organizações, como Sebrae, V4 Company, Vale
+                    Criativa, Sal Marketing e outros. Sendo o criador e gestor de
+                    diversas campanhas de marketing no mundo dos
+                    anúncios on-lines e com resultados que ultrapassaram
+                    os milhões de faturamento.<br /><br />
+
+                    Isso é um pouco da minha trajetória, que consigo contar aqui sobre os
+                    resultados alcançados, porém, o mais incrível de tudo isso, é saber
+                    que por causa das ideias, a dedicação e entrega que foram
+                    feitas, não teríamos esses resultados.
                     </Description>
                 </div>
             </Box>

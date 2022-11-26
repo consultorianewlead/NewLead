@@ -3,13 +3,13 @@ import { Container, Title, Button, Icon, Footer, Logo, Description, BackToTop } 
 import IconIMG from '../../../assets/Footer.svg';
 import LogoIMG from '../../../assets/LOGO.jpg'
 
-const Index = () => {
+const Index = ( props ) => {
   return (
     <div id='Footer'>
 
         <Container>
             <Title>Conte com a Consultoria <span>New Lead</span> no seu negócio.</Title>
-            <div style={{ display: "flex", justifyContent: "center" }}><Button>Entrar em contato</Button></div>
+            <div style={{ display: "flex", justifyContent: "center" }}><Button onClick={() => {props.setPopup(!props.popup)}} >Entrar em contato</Button></div>
             <Icon src={IconIMG} />
         </Container>
 

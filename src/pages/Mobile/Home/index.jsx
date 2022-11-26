@@ -11,7 +11,7 @@ const Index = ( props ) => {
   const [ menu, setMenu ] = useState(false);
 
   return (
-    <div id='Home' style={{ height: "90vh" }}>
+    <div id='Home' style={{ height: "100%", marginBottom: "10%" }}>
 
       {/* Nav */}
 
