@@ -21,4 +21,11 @@ export const Description = styled.p`
 color: #5F5F5F;
 font-size: 1.2vw;
 font-weight: 500;
+display: inline;
+width: 650px;
+
+@media (max-width: 1300px) {
+    width: 400px;
+}
+
 `;

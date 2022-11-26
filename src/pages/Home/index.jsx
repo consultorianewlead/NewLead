@@ -32,7 +32,7 @@ function useWindowDimensions() {
 const { width, height } = useWindowDimensions();
 
   return (
-    <div id='Home' style={{ height: "100vh" }}>
+    <div id='Home'>
 
           <Nav>
               <Logo src={LogoIMG} alt="Logo New Lead" />

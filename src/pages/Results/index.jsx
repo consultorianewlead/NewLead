@@ -49,7 +49,7 @@ const Index = () => {
     const { width } = useWindowDimensions();
 
   return (
-    <div id='Results'>
+    <div id='Results' style={{ marginTop: "10%" }}>
 
         <Title>
             Em <span>3 anos</span>, foram <span>mais 100 empresas atendidas</span> em diversos nichos, mais de 6 dígitos <br/>
