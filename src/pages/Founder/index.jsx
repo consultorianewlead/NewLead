@@ -35,7 +35,7 @@ const { width } = useWindowDimensions();
         <div style={{ display: "grid"}}>
             <Title>O fundador</Title>
             <Description>
-            Meu nome é Enilton Martins, morador em umas regiões mais incríveis da Chapada Diamantina - BA. Estou presente a mais
+            Meu nome é Enilton Martins, morador em uma das regiões mais incríveis da Chapada Diamantina - BA. Estou presente há mais
             de 3 anos no mercado, com formação em Gestão Comercial e atuando na área de Marketing Digital com especialidade na 
             Gestão de Tráfego.<br /><br />
 
