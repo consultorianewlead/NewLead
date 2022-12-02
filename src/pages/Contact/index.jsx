@@ -14,7 +14,7 @@ const Index = ( props ) => {
     };
   }
   
-function useWindowDimensions() {
+  function useWindowDimensions() {
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
   
     useLayoutEffect(() => {
@@ -30,17 +30,12 @@ function useWindowDimensions() {
   }
 
   const { width, height } = useWindowDimensions();
-
-  const [ name, setName ] = useState(undefined);
-  const [ whatsapp, setWhatsapp ] = useState(undefined);
-  const [ email, setEmail ] = useState(undefined);
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_jmkpa3m', 'service_jmkpa3m', form.current, 'iQHDf1PnbFKeDDCXN')
+    emailjs.sendForm('service_jmkpa3m', 'template_qcut0ok', form.current, 'iQHDf1PnbFKeDDCXN')
       .then((result) => {
           console.log(result.text);
           const url = "https://api.whatsapp.com/send?phone=557599080292&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20consultoria."
