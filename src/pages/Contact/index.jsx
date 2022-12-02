@@ -35,7 +35,7 @@ const Index = ( props ) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_jmkpa3m', 'template_qcut0ok', form.current, 'iQHDf1PnbFKeDDCXN')
+    emailjs.sendForm('service_jmkpa3m', 'template_yp1qig9', form.current, 'iQHDf1PnbFKeDDCXN')
       .then((result) => {
           console.log(result.text);
           const url = "https://api.whatsapp.com/send?phone=557599080292&text=Ol%C3%A1%2C%20quero%20saber%20mais%20sobre%20a%20consultoria."
