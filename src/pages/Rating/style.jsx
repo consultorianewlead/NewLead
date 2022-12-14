@@ -14,4 +14,6 @@ box-shadow: 0px 0px 35px -14px rgba(0,0,0,0.2);
 
 export const ImageLogo = styled.img`
 width: 150px;
+border-radius: 30px;
+object-fit: fill;
 `;
