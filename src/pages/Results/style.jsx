@@ -4,6 +4,7 @@ export const Title = styled.h1`
 text-align: center;
 font-weight: 500;
 font-size: 1.5vw;
+width: 70%;
 
 span {
     font-weight: 800;
