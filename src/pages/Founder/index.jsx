@@ -36,7 +36,7 @@ const { width } = useWindowDimensions();
             <Title>O fundador</Title>
             <Description>
             Meu nome é Enilton Martins, morador em uma das regiões mais incríveis da Chapada Diamantina - BA. Estou presente há mais
-            de 3 anos no mercado, com formação em Gestão Comercial e atuando na área de Marketing Digital com especialidade na 
+            de 5 anos no mercado, com formação em Gestão Comercial e atuando na área de Marketing Digital com especialidade na 
             Gestão de Tráfego.<br /><br />
 
             Durante esse período, tive diversas experiências em grandes organizações, como Sebrae, V4 Company, Vale
