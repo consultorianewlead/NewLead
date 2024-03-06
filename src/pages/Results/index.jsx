@@ -7,9 +7,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Primeira from "../../assets/Prints/1.png";
 import PrimeiraB from "../../assets/Prints/1b.png";
 
-import Segunda from "../../assets/Prints/2.png";
-import SegundaB from "../../assets/Prints/2b.png";
-
 import Terceira from "../../assets/Prints/3.png";
 import TerceiraB from "../../assets/Prints/3b.png";
 
@@ -26,9 +23,10 @@ const Index = () => {
     <div id="Results" style={{ marginTop: "10%" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Title>
-          Em 4 anos, foram <span>mais 200 empresas atendidas</span> em diversos
-          nichos, mais de 7 dígitos gerenciados em anúncios on-lines e mais 7
-          dígitos em faturamentos gerados aos <span>nossos clientes</span>.
+          São 5 anos no mercado, <span>mais de 250 empresas atendidas</span> em
+          diversos nichos, mais de 7 dígitos gerenciados em anúncios on-lines e
+          mais 7 dígitos em faturamentos gerados aos{" "}
+          <span>nossos clientes</span>.
         </Title>
       </div>
 
@@ -47,10 +45,6 @@ const Index = () => {
           >
             <div>
               <img src={Primeira} />
-            </div>
-
-            <div>
-              <img src={Segunda} />
             </div>
 
             <div>
@@ -80,10 +74,6 @@ const Index = () => {
             >
               <div>
                 <img src={PrimeiraB} />
-              </div>
-
-              <div>
-                <img src={SegundaB} />
               </div>
 
               <div>
