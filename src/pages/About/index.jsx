@@ -37,7 +37,7 @@ const { width } = useWindowDimensions();
             <Description>
                 A Consultoria New Lead surgiu com a proposta<br/>
                 de unir as estratégias e processos que foram<br/>
-                usados na criação e gerenciamento de mais 100<br/>
+                usados na criação e gerenciamento de mais 250 atendidas<br/>
                 empresas, empresas essas que ultrapassaram<br/>
                 os 7 dígitos(milhões) de faturamento em nossos<br/>
                 resultados. Além disso, está a união de <br/>
