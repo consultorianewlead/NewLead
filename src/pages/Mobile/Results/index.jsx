@@ -39,7 +39,7 @@ const { width } = useWindowDimensions();
 
   return (
     <div id='Results' style={{ padding: "20px" }}>
-        <Title>Em 3 anos, foram <span>mais 100 empresas atendidas</span> em diversos nichos, mais de 6 dígitos (milhares)  gerenciados em anúncios on-lines e mais 7 dígitos (milhões) em <span>faturamentos gerados</span> aos nossos clientes.</Title>
+        <Title>São 5 anos no mercado e <span>mais de 250 empresas atendidas</span> em diversos nichos, mais de 7 dígitos (milhares)  gerenciados em anúncios on-lines e mais 7 dígitos (milhões) em <span>faturamentos gerados</span> aos nossos clientes.</Title>
 
         <div style={{ display: "flex", justifyContent: "center", marginTop: "5%"}}>
         <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showArrows={true} showStatus={false} >
